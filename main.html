@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Programming Languages: Survey Form</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" ref="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+</head>
+
+<body>
+  <div class="main">
+    <h1 id="title">Programming Languages Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div class="menu">
+      <form action='https://fcc-registration-form.com' id="survey-form">
+        <label id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required /></label>
+        <label id="email-label">Email <input type="email" id="email" placeholder="Enter your email" required /></label>
+        <label id="number-label">Age (optional) <input type="number" id="number" max="120" min="8" placeholder="Age" /></label>
+        <label>Which option best describes your current role?
+          <select class="bar" id="dropdown">
+            <option disabled selected value>Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label class="dis">Would you recommend a programming languages to a friend? </label>
+        <label class="check"><input type="radio" name="recommend" class="dev" value="botton" /> Definitely </label>
+        <label class="check"><input type="radio" name="recommend" class="dev" value="botton" /> Maybe</label>
+        <label class="check"><input type="radio" name="recommend" class="dev" value="botton" /> Not sure</label>
+        <label>What would you like to learn? (Check all that apply)</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Front-end Projects</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Back-end Projects</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Data Visualization</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Challenges</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Open Source Community</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Gitter help rooms</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Videos</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> City Meetups</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Wiki</label>
+        <label class="check"><input type="checkbox" class="dev" value="box" /> Additional Courses</label>
+        <label class="typeText">Any comments or suggestions?</label>
+        <label><textarea class="place">Enter your comment here...</textarea>
+          <label><input type="submit" class="Submit" id="submit" /></label>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
